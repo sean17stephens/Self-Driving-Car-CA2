@@ -12,8 +12,7 @@ from tensorflow import keras
 sio = socketio.Server()
 app = Flask(__name__)
 
-speed_limit = 30
-# timing lap
+speed_limit = 20
 
 def preprocess_img(img):
     img = img[60:135, :, :]
