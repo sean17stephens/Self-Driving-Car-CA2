@@ -51,6 +51,6 @@ if __name__ == '__main__':
     app = socketio.Middleware(sio, app)
     eventlet.wsgi.server(eventlet.listen(('', 4567)), app)
 
-
+# going around track 1 fully and track 2 stops at second corner
 
 
